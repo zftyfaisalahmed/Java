@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 class Operation {
-    void choiceOperator() {
-        System.out.println("Arthimetic Operation : ");
+    void chooseOperator() {
+        System.out.println("Operation : ");
         Scanner sc = new Scanner(System.in);
         System.out.println("Select the opeartion to be performed : \n" + "1. Arthimetic\n" + "2. Relation\n");
-        int choice1 = sc.nextInt();
+        int choose = sc.nextInt();
         // System.out.println("Enter the num 1");
         // int num1 = sc.nextInt();
         // System.out.println("Enter the num 2");
@@ -15,16 +15,16 @@ class Operation {
         // + "3. Multiple\n" + "4. Division\n" + "5. Modulus\n" + "6. Exit\n");
         // int choice = sc.nextInt();
 
-        switch (choice1) {
+        switch (choose) {
             case 1: {
-                Operation op1 = new Operation();
-                op1.arithematic();
+                Operation op = new Operation();
+                op.arithematic();
                 break;
             }
 
             case 2: {
-                Operation op1 = new Operation();
-                op1.relation();
+                Operation op = new Operation();
+                op.relation();
                 break;
             }
             default:
@@ -46,12 +46,15 @@ class Operation {
                 System.out.println("Enter the num 2");
                 int num2 = sc.nextInt();
 
-                System.out.println("Addition result is ;");
+                System.out.println("Addition result is :");
                 System.out.println(num1 + num2);
-                System.out.println("type 1 if you wish to continue else type 0");
+                System.out.println("type 1 if you wish to continue, For Operation type 2, For Exit type 0");
                 int num = sc.nextInt();
                 if (num == 1) {
                     arithematic();
+                    break;
+                } else if (num == 2) {
+                    chooseOperator();
                     break;
                 } else {
                     break;
@@ -64,12 +67,15 @@ class Operation {
                 System.out.println("Enter the num 2");
                 int num2 = sc.nextInt();
 
-                System.out.println("Subtraction result is ;");
+                System.out.println("Subtraction result is :");
                 System.out.println(num1 - num2);
-                System.out.println("type 1 if you wish to continue else type 0");
+                System.out.println("type 1 if you wish to continue, For Operation type 2, For Exit type 0");
                 int num = sc.nextInt();
                 if (num == 1) {
                     arithematic();
+                    break;
+                } else if (num == 2) {
+                    chooseOperator();
                     break;
                 } else {
                     break;
@@ -82,12 +88,15 @@ class Operation {
                 System.out.println("Enter the num 2");
                 int num2 = sc.nextInt();
 
-                System.out.println("Multiple result is ;");
+                System.out.println("Multiple result is :");
                 System.out.println(num1 * num2);
-                System.out.println("type 1 if you wish to continue else type 0");
+                System.out.println("type 1 if you wish to continue, For Operation type 2, For Exit type 0");
                 int num = sc.nextInt();
                 if (num == 1) {
                     arithematic();
+                    break;
+                } else if (num == 2) {
+                    chooseOperator();
                     break;
                 } else {
                     break;
@@ -100,12 +109,15 @@ class Operation {
                 System.out.println("Enter the num 2");
                 int num2 = sc.nextInt();
 
-                System.out.println("Division result is ;");
+                System.out.println("Division result is :");
                 System.out.println(num1 / num2);
-                System.out.println("type 1 if you wish to continue else type 0");
+                System.out.println("type 1 if you wish to continue, For Operation type 2, For Exit type 0");
                 int num = sc.nextInt();
                 if (num == 1) {
                     arithematic();
+                    break;
+                } else if (num == 2) {
+                    chooseOperator();
                     break;
                 } else {
                     break;
@@ -118,12 +130,15 @@ class Operation {
                 System.out.println("Enter the num 2");
                 int num2 = sc.nextInt();
 
-                System.out.println("Modulus result is ;");
+                System.out.println("Modulus result is :");
                 System.out.println(num1 % num2);
-                System.out.println("type 1 if you wish to continue else type 0");
+                System.out.println("type 1 if you wish to continue, For Operation type 2, For Exit type 0");
                 int num = sc.nextInt();
                 if (num == 1) {
                     arithematic();
+                    break;
+                } else if (num == 2) {
+                    chooseOperator();
                     break;
                 } else {
                     break;
@@ -162,12 +177,30 @@ class Operation {
         } else if (age != 45) {
             System.out.println("Not Valid for Marriage");
         }
+
+        System.out.println("type 1 if you wish to continue, For Operation type 2, For Exit type 0");
+        int num = sc.nextInt();
+
+        switch (num) {
+            case 1: {
+                relation();
+                break;
+            }
+
+            case 2: {
+                chooseOperator();
+                break;
+            }
+
+            default:
+                break;
+        }
     }
 }
 
 class OperatorsMain {
     public static void main(String[] args) {
         Operation op = new Operation(); // instance
-        op.choiceOperator();
+        op.chooseOperator();
     }
 }
