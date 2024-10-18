@@ -173,6 +173,210 @@ class PatternOp {
                 }
             }
 
+            case 11: {
+                PatternOp op = new PatternOp();
+                op.pattern11();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern11();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 12: {
+                PatternOp op = new PatternOp();
+                op.pattern12();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern12();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 13: {
+                PatternOp op = new PatternOp();
+                op.pattern13();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern13();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 14: {
+                PatternOp op = new PatternOp();
+                op.pattern14();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern14();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 15: {
+                PatternOp op = new PatternOp();
+                op.pattern15();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern15();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 16: {
+                PatternOp op = new PatternOp();
+                op.pattern16();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern16();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 17: {
+                PatternOp op = new PatternOp();
+                op.pattern17();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern17();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 18: {
+                PatternOp op = new PatternOp();
+                op.pattern18();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern18();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 19: {
+                PatternOp op = new PatternOp();
+                op.pattern19();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern19();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 20: {
+                PatternOp op = new PatternOp();
+                op.pattern20();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern20();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 21: {
+                PatternOp op = new PatternOp();
+                op.pattern21();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern21();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
+            case 22: {
+                PatternOp op = new PatternOp();
+                op.pattern22();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    pattern22();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
             default:
                 break;
         }
@@ -292,6 +496,203 @@ class PatternOp {
                 System.out.print(count);
                 System.out.print("  ");
                 count--;
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern11() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                System.out.print("# ");
+            }
+            for (int j = 1; j <= n; j++) {
+                System.out.print("$ ");
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern12() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                System.out.print(i + " ");
+            }
+            for (int j = 1; j <= n; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern13() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+        int count = 1;
+
+        for (int i = 1; i <= n; i++) {
+            // for (int j = 1; j <= n; j++) {
+            // System.out.print(i + " ");
+            // }
+            // for (int j = 1; j <= n; j++) {
+            // System.out.print(j + " ");
+            // }
+
+            for (int j = 1; j <= (2 * n); j++) {
+                System.out.print(count + "    ");
+                count++;
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern14() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("# ");
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern15() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = n; j >= i; j--) {
+                System.out.print("# ");
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern16() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern17() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+        int count = 1;
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(count + " ");
+                count++;
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern18() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (i == 1 || i == n || j == 1 || j == n) {
+                    System.out.print("# ");
+                } else {
+                    System.out.print("- ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern19() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                System.out.print("- ");
+            }
+            for (int j = n; j >= i; j--) {
+                System.out.print("& ");
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern20() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                if (i == 1 || i == n || j == 1 || j == i) {
+                    System.out.print("# ");
+                } else {
+                    System.out.print("- ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern21() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+        int count = 1;
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (count < 10) {
+                    System.out.print("0" + count + " ");
+                    count++;
+                } else {
+                    System.out.print(count + " ");
+                    count++;
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    void pattern22() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            int count = i;
+            for (int j = 1; j <= n; j++) {
+                if (count < 10) {
+                    System.out.print("0" + count + " ");
+                } else {
+                    System.out.print(count + " ");
+                }
+                count += n;
             }
             System.out.println();
         }
