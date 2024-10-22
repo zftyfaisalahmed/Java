@@ -6,7 +6,9 @@ class PatternOp {
         Scanner sc = new Scanner(System.in);
         System.out.println("Select the Patterns to be performed : \n" + "1. pattern1\n" + "2. pattern2\n"
                 + "3. pattern3\n" + "4. pattern4\n" + "5. pattern5\n" + "6. pattern6\n" + "7. pattern7\n"
-                + "8. pattern8\n" + "9. pattern9\n" + "10. pattern10\n");
+                + "8. pattern8\n" + "9. pattern9\n" + "10. pattern10\n" + "11. pattern11\n" + "12. pattern12\n"
+                + "13. pattern13\n" + "14. pattern14\n" + "15. pattern15\n" + "16. pattern16\n" + "17. pattern17\n"
+                + "18. pattern18\n" + "19. pattern19\n" + "20. pattern20\n" + "21. pattern21\n" + "22. pattern22\n");
         int choose = sc.nextInt();
 
         switch (choose) {
@@ -377,6 +379,23 @@ class PatternOp {
                 }
             }
 
+            case 23: {
+                PatternOp op = new PatternOp();
+                op.learnt();
+
+                System.out.println("type 1 if you wish to continue, For Patterns type 2, For Exit type 0");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    learnt();
+                    break;
+                } else if (num == 2) {
+                    choosePattern();
+                    break;
+                } else {
+                    break;
+                }
+            }
+
             default:
                 break;
         }
@@ -689,10 +708,37 @@ class PatternOp {
             for (int j = 1; j <= n; j++) {
                 if (count < 10) {
                     System.out.print("0" + count + " ");
+                    count = count + n;
                 } else {
                     System.out.print(count + " ");
+                    count = count + n;
                 }
-                count += n;
+            }
+            System.out.println();
+        }
+    }
+
+    void learnt() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size : ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (i == 1 || i == n || j == 1) {
+                    System.out.print("# ");
+                } else {
+                    System.out.print("- ");
+                }
+                // System.out.print("# ");
+            }
+            for (int j = 1; j <= i; j++) {
+                if (i == n || j == i) {
+                    System.out.print("# ");
+                } else {
+                    System.out.print("- ");
+                }
+                // System.err.print("# ");
             }
             System.out.println();
         }

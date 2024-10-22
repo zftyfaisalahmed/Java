@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AllAlphabet",
+            "request": "launch",
+            "mainClass": "AllAlphabet",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Alphabet",
+            "request": "launch",
+            "mainClass": "Alphabet",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperator",
+            "request": "launch",
+            "mainClass": "ArithmeticOperator",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Conditional",
+            "request": "launch",
+            "mainClass": "Conditional",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "DoWhile",
+            "request": "launch",
+            "mainClass": "DoWhile",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Increment",
+            "request": "launch",
+            "mainClass": "Increment",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "InstanceVariable1",
+            "request": "launch",
+            "mainClass": "InstanceVariable1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "InstanceVarible",
+            "request": "launch",
+            "mainClass": "InstanceVarible",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Learning",
+            "request": "launch",
+            "mainClass": "Learning",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "Loop",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "OperatorsMain",
+            "request": "launch",
+            "mainClass": "OperatorsMain",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Static",
+            "request": "launch",
+            "mainClass": "Static",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StaticVariable",
+            "request": "launch",
+            "mainClass": "StaticVariable",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "WhileLoop",
+            "projectName": "Java_cac71ac9"
+        }
+    ]
+}
