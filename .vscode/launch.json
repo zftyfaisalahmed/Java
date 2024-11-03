@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SirCode",
+            "request": "launch",
+            "mainClass": "SirCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FaisalProduction",
+            "request": "launch",
+            "mainClass": "FaisalProduction",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StoryCode",
+            "request": "launch",
+            "mainClass": "StoryCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "SanjayProduction",
+            "request": "launch",
+            "mainClass": "SanjayProduction",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "TonyArray1",
+            "request": "launch",
+            "mainClass": "TonyArray1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AdhaarLaunch",
+            "request": "launch",
+            "mainClass": "AdhaarLaunch",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Launch2",
+            "request": "launch",
+            "mainClass": "Launch2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCode2",
+            "request": "launch",
+            "mainClass": "ArrayCode2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCode1",
+            "request": "launch",
+            "mainClass": "ArrayCode1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "AllAlphabet",
             "request": "launch",
             "mainClass": "AllAlphabet",
