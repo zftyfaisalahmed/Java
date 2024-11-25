@@ -6,6 +6,230 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "InheritedSpeicalOverride.p2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "InheritedSpeicalOverride.p1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ClassName1",
+            "request": "launch",
+            "mainClass": "ClassMethod.ClassName1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Stringcode13",
+            "request": "launch",
+            "mainClass": "Strings.Stringcode13",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Anagrams1",
+            "request": "launch",
+            "mainClass": "Strings.Anagrams1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AnaGrams",
+            "request": "launch",
+            "mainClass": "Strings.AnaGrams",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "PasswordChar",
+            "request": "launch",
+            "mainClass": "Strings.PasswordChar",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "SumAndProduct",
+            "request": "launch",
+            "mainClass": "Strings.SumAndProduct",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StringCode11",
+            "request": "launch",
+            "mainClass": "Strings.StringCode11",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StringCode9",
+            "request": "launch",
+            "mainClass": "Strings.StringCode9",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StringCode10",
+            "request": "launch",
+            "mainClass": "Strings.StringCode10",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StringCode8",
+            "request": "launch",
+            "mainClass": "Strings.StringCode8",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Vowels",
+            "request": "launch",
+            "mainClass": "Vowels",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Forlooop",
+            "request": "launch",
+            "mainClass": "Strings.Forlooop",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Stringcode7",
+            "request": "launch",
+            "mainClass": "Strings.Stringcode7",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Stringcode6",
+            "request": "launch",
+            "mainClass": "Strings.Stringcode6",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Stringcode5",
+            "request": "launch",
+            "mainClass": "Strings.Stringcode5",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "QuizProjectJava",
+            "request": "launch",
+            "mainClass": "QuizProjectJava.QuizProjectJava",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Stringcode4",
+            "request": "launch",
+            "mainClass": "Strings.Stringcode4",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Stringcode3",
+            "request": "launch",
+            "mainClass": "Strings.Stringcode3",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Stringcode2",
+            "request": "launch",
+            "mainClass": "Strings.Stringcode2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StringCode1",
+            "request": "launch",
+            "mainClass": "Strings.StringCode1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "QuizApp",
+            "request": "launch",
+            "mainClass": "QuizApp",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongCode",
+            "request": "launch",
+            "mainClass": "ArmstrongCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Matrix2",
+            "request": "launch",
+            "mainClass": "Matrix2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Matrix1",
+            "request": "launch",
+            "mainClass": "Matrix1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Code2",
+            "request": "launch",
+            "mainClass": "Code2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Code1",
+            "request": "launch",
+            "mainClass": "Code1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "SirCode",
             "request": "launch",
             "mainClass": "SirCode",
