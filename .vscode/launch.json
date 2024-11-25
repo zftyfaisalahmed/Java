@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "Basics.Loop",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "p2",
             "request": "launch",
             "mainClass": "InheritedSpeicalOverride.p2",
