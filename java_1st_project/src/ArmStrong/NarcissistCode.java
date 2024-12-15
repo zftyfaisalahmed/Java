@@ -20,7 +20,7 @@ public class NarcissistCode {
 		int count = findDigitCount(n);
 		while (temp > 0) {
 			int rem = temp % 10;
-			sum = sum + Math.pow(rem, count);
+			sum = sum + rem;
 			temp = temp / 10;
 		}
 		if (sum == n) {

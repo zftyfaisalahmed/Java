@@ -14,7 +14,7 @@ class Plane {
     }
 }
 
-class CargoPlane extends Plane {
+class cargoPlane extends Plane {
     void fly() {
         System.out.println("Cargo Plane fly at low heights");
     }
@@ -24,7 +24,7 @@ class CargoPlane extends Plane {
     }
 }
 
-class PassengerPlane extends Plane {
+class passengerPlane extends Plane {
     @Override
     void fly() {
         System.out.println("Passenger Plane fly at low heights");
@@ -35,7 +35,7 @@ class PassengerPlane extends Plane {
     }
 }
 
-class FighterPlane extends Plane {
+class fighterPlane extends Plane {
     @Override
     void fly() {
         System.out.println("Fighter Plane fly at high heights");
@@ -46,31 +46,36 @@ class FighterPlane extends Plane {
     }
 }
 
-public class p1 {
+class Airport {
+    void permit(Plane ref) {
+        ref.takeOff();
+        ref.fly();
+        ref.land();
+    }
+}
+
+public class CondancePermitPolymorphism {
     public static void main(String[] args) {
-        CargoPlane cp = new CargoPlane();
-        PassengerPlane pp = new PassengerPlane();
-        FighterPlane fp = new FighterPlane();
+        cargoPlane cp = new cargoPlane();
+        passengerPlane pp = new passengerPlane();
+        fighterPlane fp = new fighterPlane();
 
-        System.out.println("Cargo Plane Data : ");
-        cp.takeOff();
-        cp.fly();
-        cp.land();
-        cp.carryGoods();
-        System.out.println("==============");
+        Airport a = new Airport();
 
-        System.out.println("Passenger Plane Data : ");
-        pp.takeOff();
-        pp.fly();
-        pp.land();
+        System.out.println("Cargo Plane Details : ");
+        a.permit(cp);
+        cp.carryGoods();// We Cannot have parent type reference to the specilaized methods of the child
+        // class
+        System.out.println("===========");
+
+        System.out.println("Passenger Plane Details : ");
+        a.permit(pp);
         pp.carryHuman();
-        System.out.println("==============");
+        System.out.println("===========");
 
-        System.out.println("Fighter Plane Data : ");
-        fp.takeOff();
-        fp.fly();
-        fp.land();
+        System.out.println("Fighter Plane Details : ");
+        a.permit(fp);
         fp.carryWeapon();
-        System.out.println("==============");
+        System.out.println("===========");
     }
 }

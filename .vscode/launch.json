@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TheadCode1",
+            "request": "launch",
+            "mainClass": "Threading.TheadCode1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadingMultiple",
+            "request": "launch",
+            "mainClass": "Threading.ThreadingMultiple",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadingCode",
+            "request": "launch",
+            "mainClass": "Threading.ThreadingCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "CustomException",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.CustomException",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FunctionHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.FunctionHandling",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "TryCatch1",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.TryCatch1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "TryCatch",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.TryCatch",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "SahanaCode1",
+            "request": "launch",
+            "mainClass": "FriendsCode.SahanaCode1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "SahanaCode",
+            "request": "launch",
+            "mainClass": "FriendsCode.SahanaCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Problem1",
+            "request": "launch",
+            "mainClass": "IsAandHasAProblem.Problem1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "EnClosing1",
+            "request": "launch",
+            "mainClass": "HasARelation.EnClosing1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "EnClosing",
+            "request": "launch",
+            "mainClass": "HasARelation.EnClosing",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "AllJavaCore.Program1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AbtractionProgram",
+            "request": "launch",
+            "mainClass": "Abstraction.AbtractionProgram",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "CondancePermitPolymorphism1",
+            "request": "launch",
+            "mainClass": "InheritedSpeicalOverride.CondancePermitPolymorphism1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "CondancePermitPolymorphism",
+            "request": "launch",
+            "mainClass": "InheritedSpeicalOverride.CondancePermitPolymorphism",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceOverride2",
+            "request": "launch",
+            "mainClass": "InheritedSpeicalOverride.ReferenceOverride2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceOverride",
+            "request": "launch",
+            "mainClass": "InheritedSpeicalOverride.ReferenceOverride",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "Loop",
             "request": "launch",
             "mainClass": "Basics.Loop",
