@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreadCode6",
+            "request": "launch",
+            "mainClass": "Threading.ThreadCode6",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadCode5",
+            "request": "launch",
+            "mainClass": "Threading.ThreadCode5",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadCode4",
+            "request": "launch",
+            "mainClass": "Threading.ThreadCode4",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "RaceCondition1",
+            "request": "launch",
+            "mainClass": "Threading.RaceCondition1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "RaceCondition",
+            "request": "launch",
+            "mainClass": "Threading.RaceCondition",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadCode3",
+            "request": "launch",
+            "mainClass": "Threading.ThreadCode3",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Threadcode2",
+            "request": "launch",
+            "mainClass": "Threading.Threadcode2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadCode2",
+            "request": "launch",
+            "mainClass": "Threading.ThreadCode2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThreadCode",
+            "request": "launch",
+            "mainClass": "Threading.ThreadCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "JoinMethod",
+            "request": "launch",
+            "mainClass": "Threading.JoinMethod",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "TheadCode1",
             "request": "launch",
             "mainClass": "Threading.TheadCode1",

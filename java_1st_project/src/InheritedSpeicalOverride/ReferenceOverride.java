@@ -14,7 +14,7 @@ class Plane {
     }
 }
 
-class cargoPlane extends Plane {
+class CargoPlane extends Plane {
     void fly() {
         System.out.println("Cargo Plane fly at low heights");
     }
@@ -24,7 +24,7 @@ class cargoPlane extends Plane {
     }
 }
 
-class passengerPlane extends Plane {
+class PassengerPlane extends Plane {
     @Override
     void fly() {
         System.out.println("Passenger Plane fly at low heights");
@@ -35,7 +35,7 @@ class passengerPlane extends Plane {
     }
 }
 
-class fighterPlane extends Plane {
+class FighterPlane extends Plane {
     @Override
     void fly() {
         System.out.println("Fighter Plane fly at high heights");
@@ -48,9 +48,9 @@ class fighterPlane extends Plane {
 
 public class ReferenceOverride {
     public static void main(String[] args) {
-        cargoPlane cp = new cargoPlane();
-        passengerPlane pp = new passengerPlane();
-        fighterPlane fp = new fighterPlane();
+        CargoPlane cp = new CargoPlane();
+        PassengerPlane pp = new PassengerPlane();
+        FighterPlane fp = new FighterPlane();
 
         Plane ref;
 
