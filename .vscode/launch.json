@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedSatya",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListFile.LinkedSatya",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCode3",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListFile.LinkedListCode3",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCode2",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListFile.LinkedListCode2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListFile1",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListFile.LinkedListFile1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListFile",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListFile.LinkedListFile",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "ThreadCode6",
             "request": "launch",
             "mainClass": "Threading.ThreadCode6",
