@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CollectionExample",
+            "request": "launch",
+            "mainClass": "ToStringMethod.CollectionExample",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveExample",
+            "request": "launch",
+            "mainClass": "ToStringMethod.PrimitiveExample",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AnagramsInStrs",
+            "request": "launch",
+            "mainClass": "JavaTest.AnagramsInStrs",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Hackerrank1",
+            "request": "launch",
+            "mainClass": "JavaTest.Hackerrank1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListProg",
+            "request": "launch",
+            "mainClass": "JavaTest.LinkedListProg",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "PanGram",
+            "request": "launch",
+            "mainClass": "JavaTest.PanGram",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FourPillars",
+            "request": "launch",
+            "mainClass": "JavaTest.FourPillars",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "DeadlockExample",
+            "request": "launch",
+            "mainClass": "JavaTest.DeadlockExample",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDequeSatya",
+            "request": "launch",
+            "mainClass": "Collection.ArrayDeque.ArrayDequeSatya",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "LinkedSatya",
             "request": "launch",
             "mainClass": "Collection.LinkedListFile.LinkedSatya",

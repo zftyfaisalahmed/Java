@@ -11,7 +11,6 @@ class Human extends Thread {
             System.out.println(Thread.currentThread().getName() + " has left the bathroom");
             Thread.sleep(2000);
         } catch (Exception e) {
-            // TODO: handle exception
             e.printStackTrace();
         }
     }
