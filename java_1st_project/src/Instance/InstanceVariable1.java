@@ -21,7 +21,7 @@ class Car {
 
 public class InstanceVariable1 {
     public static void main(String[] args) {
-        Car c = new Car();
+        Car c = new Car();// instance variable
         c.display();
         c.addData(6788, "Toyato", "null");
         c.display();

@@ -3,7 +3,6 @@ package ArmStrong;
 import java.util.Scanner;
 
 public class NarcissistCode {
-
 	static int findDigitCount(int n) {
 		int temp = n;
 		int count = 0;
@@ -20,7 +19,7 @@ public class NarcissistCode {
 		int count = findDigitCount(n);
 		while (temp > 0) {
 			int rem = temp % 10;
-			sum = sum + rem;
+			sum = sum + Math.pow(rem, count);
 			temp = temp / 10;
 		}
 		if (sum == n) {

@@ -15,7 +15,7 @@ public class LinearSearch {
         System.out.println("======");
         System.out.println("Array elements are");
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         System.out.println("=====");
         System.out.println("Enter the element to be searched");
@@ -28,6 +28,5 @@ public class LinearSearch {
             }
         }
         System.out.println("Element not found");
-
     }
 }

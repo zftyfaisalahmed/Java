@@ -14,14 +14,14 @@ class StudentMarks2 {
             System.out.println("Enter the class count in school no " + (i + 1));
             int n = sc.nextInt();
             arr[i] = new int[n][];
-
         }
 
         for (int i = 0; i < arr.length; i++) {
             System.out.println("Inside the school-" + (i + 1));
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.println("Enter the student count in class: " + (j + 1));
-                arr[i][j] = new int[sc.nextInt()];
+                int o = sc.nextInt();
+                arr[i][j] = new int[o];
             }
         }
 
@@ -58,7 +58,6 @@ class StudentMarks2 {
 }
 
 public class ArrayCode5 {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

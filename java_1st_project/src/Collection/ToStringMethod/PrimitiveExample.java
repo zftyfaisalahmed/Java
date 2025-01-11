@@ -1,4 +1,4 @@
-package ToStringMethod;
+package Collection.ToStringMethod;
 
 public class PrimitiveExample {
     @SuppressWarnings("removal")

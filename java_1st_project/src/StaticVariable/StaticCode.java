@@ -45,7 +45,6 @@ class Calculator {
 public class StaticCode {
 
     public static void main(String[] args) {
-
         // these static variables can be accessed without creating object for the class
         System.out.println(Calculator.a);
         System.out.println(Calculator.b);
@@ -62,7 +61,5 @@ public class StaticCode {
         System.out.println(calculator.r);
         System.out.println("+++++++++");
         calculator.display2();
-
     }
-
 }

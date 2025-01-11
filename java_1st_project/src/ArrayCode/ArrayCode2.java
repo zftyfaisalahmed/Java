@@ -45,6 +45,5 @@ public class ArrayCode2 {
         ao.createArray1(i, j);
         ao.addData1();
         ao.viewData1();
-
     }
 }

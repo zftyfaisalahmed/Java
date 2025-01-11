@@ -5,6 +5,11 @@ class Plane {
         System.out.println("Plane took Off");
     }
 
+    // Method Overloading
+    void takeOff(int speed) {
+        System.out.println("Plane took off at speed: " + speed);
+    }
+
     void fly() {
         System.out.println("Plane is flying");
     }
@@ -14,9 +19,19 @@ class Plane {
     }
 }
 
-class CargoPlane extends Plane {
+// Method overriding occurs when a subclass provides a specific implementation
+// for a method that is already defined in its parent class.
+class cargoPlane extends Plane {
+    // Method Overloading
+    // @Override
+    // void takeOff(int speed) {
+    // System.out.println("Cargo Plane took off at speed: " + speed);
+    // }
+
+    @Override
+    // Method Override
     void fly() {
-        System.out.println("Cargo Plane fly at low heights");
+        System.out.println("Cargo Plane zfly at low heights");
     }
 
     void carryGoods() {
@@ -24,8 +39,9 @@ class CargoPlane extends Plane {
     }
 }
 
-class PassengerPlane extends Plane {
+class passengerPlane extends Plane {
     @Override
+    // Method Override
     void fly() {
         System.out.println("Passenger Plane fly at low heights");
     }
@@ -35,8 +51,14 @@ class PassengerPlane extends Plane {
     }
 }
 
-class FighterPlane extends Plane {
-    @Override
+class fighterPlane extends Plane {
+
+    // Method Overloading
+    // void takeOff(int speed) {
+    // System.out.println("Plane took off at speed: " + speed);
+    // }
+
+    // Method Override
     void fly() {
         System.out.println("Fighter Plane fly at high heights");
     }
@@ -48,12 +70,13 @@ class FighterPlane extends Plane {
 
 public class p1 {
     public static void main(String[] args) {
-        CargoPlane cp = new CargoPlane();
-        PassengerPlane pp = new PassengerPlane();
-        FighterPlane fp = new FighterPlane();
+        cargoPlane cp = new cargoPlane();
+        passengerPlane pp = new passengerPlane();
+        fighterPlane fp = new fighterPlane();
 
         System.out.println("Cargo Plane Data : ");
-        cp.takeOff();
+        cp.takeOff(); // Default takeOff Method
+        // cp.takeOff(3000);// Overloaded Version
         cp.fly();
         cp.land();
         cp.carryGoods();
@@ -67,7 +90,8 @@ public class p1 {
         System.out.println("==============");
 
         System.out.println("Fighter Plane Data : ");
-        fp.takeOff();
+        fp.takeOff(); // Default takeOff Method
+        // fp.takeOff(10000);// Overloaded Version
         fp.fly();
         fp.land();
         fp.carryWeapon();

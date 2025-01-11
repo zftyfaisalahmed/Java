@@ -2,7 +2,7 @@ package Threading;
 
 import java.util.Scanner;
 
-class Opeartion implements Runnable {
+class Opt1 implements Runnable {
 
     @Override
     public void run() {
@@ -74,16 +74,16 @@ class Opeartion implements Runnable {
 
 public class ThreadCode3 {
     public static void main(String[] args) {
-        Opeartion op1 = new Opeartion();
+        Opt1 op1 = new Opt1();
         Thread t1 = new Thread(op1);
         t1.setName("add");
         t1.start();
 
-        Opeartion op2 = new Opeartion();
+        Opt1 op2 = new Opt1();
         Thread t2 = new Thread(op2);
-        Opeartion op3 = new Opeartion();
+        Opt1 op3 = new Opt1();
         Thread t3 = new Thread(op3);
-        Opeartion op4 = new Opeartion();
+        Opt1 op4 = new Opt1();
         Thread t4 = new Thread(op4);
 
         t2.setName("mul");

@@ -53,6 +53,7 @@ class Heart {
 }
 
 class Human {
+    // Has-A Relationship - Composition
     private Brain brain;
     private Heart heart;
 
@@ -134,6 +135,7 @@ class Book {
 }
 
 class Student extends Human {
+    // Has-A Relationship - Composition
     private Mobile mobile;
     private Book book;
 
@@ -160,6 +162,11 @@ class Student extends Human {
     }
 }
 
+// The Is-A relationship is represented by inheritance. It indicates that one
+// class is a subclass of another and inherits its behavior and attributes.
+
+// The Has-A relationship is represented by composition or aggregation. It
+// signifies that a class contains objects of other classes as its attributes.
 public class Problem1 {
     public static void main(String[] args) {
 
@@ -168,6 +175,7 @@ public class Problem1 {
         Mobile mobile = new Mobile("Samsung", 1000);
         Book book = new Book("Java Programming", "Fasial");
 
+        // Is-A Relationship
         Student student = new Student(brain, heart, mobile, book);
 
         System.out.println("Student Details:");

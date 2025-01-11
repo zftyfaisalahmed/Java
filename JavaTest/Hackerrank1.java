@@ -1,6 +1,6 @@
 package JavaTest;
 
-public class Hackerrank1 {
+class MissingLetter {
     public static int firstMissingPositive(int[] nums) {
 
         for (int i = 0; i < nums.length; i++) {
@@ -19,12 +19,14 @@ public class Hackerrank1 {
 
         return nums.length + 1;
     }
+}
 
+public class Hackerrank1 {
     public static void main(String[] args) {
         int[] nums1 = { 1, 2, 0 };
-        System.out.println("Output: " + firstMissingPositive(nums1));
+        System.out.println("Output: " + MissingLetter.firstMissingPositive(nums1));
 
         int[] nums2 = { 3, 4, -1, 1 };
-        System.out.println("Output: " + firstMissingPositive(nums2));
+        System.out.println("Output: " + MissingLetter.firstMissingPositive(nums2));
     }
 }

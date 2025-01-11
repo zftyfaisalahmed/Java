@@ -6,6 +6,209 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hjwjc",
+            "request": "launch",
+            "mainClass": "Collection.Collections.hjwjc",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "CodeCollections",
+            "request": "launch",
+            "mainClass": "Collection.Collections.CodeCollections",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "IteratorProgram",
+            "request": "launch",
+            "mainClass": "Collection.Interator.IteratorProgram",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ComparableString",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.ComparableString",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ComparatorProgram",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.ComparatorProgram",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ComparableProgram",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.ComparableProgram",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ToString1",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.ToString1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "OverLoading1",
+            "request": "launch",
+            "mainClass": "Overloading.OverLoading1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StaticExample",
+            "request": "launch",
+            "mainClass": "StaticVariable.StaticExample",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StaticCode",
+            "request": "launch",
+            "mainClass": "StaticVariable.StaticCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Static",
+            "request": "launch",
+            "mainClass": "StaticVariable.Static",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AdhaarLaunch",
+            "request": "launch",
+            "mainClass": "StaticVariable.AdhaarLaunch",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FaisalProduction",
+            "request": "launch",
+            "mainClass": "Problems.FaisalProduction",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AllAlphabet",
+            "request": "launch",
+            "mainClass": "Patterns.AllAlphabet",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "Matrix.ReverseArray",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Matrix1",
+            "request": "launch",
+            "mainClass": "Matrix.Matrix1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Matrix.LinearSearch",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicates",
+            "request": "launch",
+            "mainClass": "Matrix.FindDuplicates",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FilteringPositions",
+            "request": "launch",
+            "mainClass": "Matrix.FilteringPositions",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LaunchConsumerProducer",
+            "request": "launch",
+            "mainClass": "ConsumerProducer.LaunchConsumerProducer",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "JaggedArray",
+            "request": "launch",
+            "mainClass": "ArrayCode.JaggedArray",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "AllJavaCore.Example",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Code2",
+            "request": "launch",
+            "mainClass": "ArrayCode.Code2",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Code1",
+            "request": "launch",
+            "mainClass": "ArrayCode.Code1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCode5",
+            "request": "launch",
+            "mainClass": "ArrayCode.ArrayCode5",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCode4",
+            "request": "launch",
+            "mainClass": "ArrayCode.ArrayCode4",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCode1",
+            "request": "launch",
+            "mainClass": "ArrayCode.ArrayCode1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "NarcissistCode",
+            "request": "launch",
+            "mainClass": "ArmStrong.NarcissistCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongCode",
+            "request": "launch",
+            "mainClass": "ArmStrong.ArmstrongCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "CollectionExample",
             "request": "launch",
             "mainClass": "ToStringMethod.CollectionExample",

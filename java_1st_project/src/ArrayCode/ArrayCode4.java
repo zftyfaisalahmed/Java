@@ -13,13 +13,13 @@ class studentMarks {
             System.out.println("Enter the student count for class no " + (i + 1));
             int n = sc.nextInt();
             arr[i] = new int[n];
-
         }
 
         System.out.println("Array created..!");
-        System.out.println("The size of array[0] is " + arr[0].length);
-        System.out.println("The size of array[1] is " + arr[1].length);
-        System.out.println("The size of array[2] is " + arr[2].length);
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("The size of array" + "[" + (i + 1) + "] " + "is " + arr[i].length);
+        }
     }
 
     void addData() {

@@ -18,7 +18,7 @@ public class MatrixAddition {
         System.out.println("Enter the values of matrix one: ");
         for (int i = 0; i < matrix1.length; i++) {
             for (int j = 0; j < matrix1[i].length; j++) {
-                System.out.println("enter the value for the position:" + "row" + (i + 1) + "-" + "col" + (j + 1));
+                System.out.println("enter the value for the position: row" + (i + 1) + "- col" + (j + 1));
                 matrix1[i][j] = sc.nextInt();
             }
         }
@@ -61,7 +61,5 @@ public class MatrixAddition {
             }
             System.out.println();
         }
-
     }
-
 }

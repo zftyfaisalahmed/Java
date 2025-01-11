@@ -9,7 +9,7 @@ public class Code1 {
         System.out.println("enter the array size: ");
         int n = sc.nextInt();
         int arr[] = new int[n];
-        System.out.println("colloecting array elements");
+        System.out.println("collecting array elements");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
@@ -25,5 +25,4 @@ public class Code1 {
         }
 
     }
-
 }

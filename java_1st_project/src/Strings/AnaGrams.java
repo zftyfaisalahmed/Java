@@ -18,7 +18,6 @@ class AnnaGrams {
         return Arrays.equals(input1, input2);
 
     }
-
 }
 
 public class AnaGrams {
@@ -28,8 +27,10 @@ public class AnaGrams {
         System.out.println("Enter the Strings One : ");
         String inp = sc.nextLine();
 
+        System.out.println(inp.format(inp, args));
         System.out.println("Enter the Strings two : ");
         String inp2 = sc.nextLine();
+        System.out.println(inp2.format(inp2, args));
 
         AnnaGrams an = new AnnaGrams();
         // an.caseOne(inp, inp2);

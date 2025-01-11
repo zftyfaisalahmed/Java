@@ -1,17 +1,17 @@
 package HasARelation;
 
 class OS {
-    double vresion;
+    double version;
     String name;
 
-    public OS(double vresion, String name) {
+    public OS(double version, String name) {
         super();
-        this.vresion = vresion;
+        this.version = version;
         this.name = name;
     }
 
     public double getVersion() {
-        return vresion;
+        return version;
     }
 
     public String getName() {
@@ -39,9 +39,11 @@ class Charger {
 }
 
 class Mobile {
+    // Composition Relationship
     OS os = new OS(7.8, "Rainbow");
 
     void hasCharger(Charger c) {
+        // Aggregation Relationship
         System.out.println(c.getCompany());
         System.out.println(c.getVolts());
     }
@@ -60,16 +62,16 @@ public class EnClosing {
         System.out.println("==============");
 
         // killing the object
-
         m = null;
+
         System.out.println("Details of Charger");
-        System.out.println(c.getCompany());
-        System.out.println(c.getVolts());
+        System.out.println(c.getCompany());// Works fine
+        System.out.println(c.getVolts());// Works fine
         System.out.println("==============");
 
         System.out.println("Details of OS");
-        System.out.println(m.os.getName());
-        System.out.println(m.os.getVersion());
+        System.out.println(m.os.getName());// Throws NullPointerException
+        System.out.println(m.os.getVersion());// Throws NullPointerException
         System.out.println("==============");
         m.hasCharger(c);
     }

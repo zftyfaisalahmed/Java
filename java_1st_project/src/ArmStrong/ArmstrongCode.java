@@ -2,8 +2,7 @@ package ArmStrong;
 
 import java.util.Scanner;
 
-public class ArmstrongCode {
-
+class Arm {
     static void checkArmstrong(int n) {
         int temp = n;
         int sum = 0;
@@ -15,21 +14,24 @@ public class ArmstrongCode {
         if (sum == n) {
             System.out.println("the sum of cubes is: " + (sum));
             System.out.println("And the given number is also:" + (n));
+            System.out.println("Temp " + temp);
             System.out.println("Its given number is armstrong number");
         } else {
             System.out.println("the sum of cubes is: " + (sum));
             System.out.println("And the given number is:" + (n));
+            System.out.println("Temp " + temp);
             System.out.println("Its not a armstrong number");
         }
     }
+}
 
+public class ArmstrongCode {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
 
-        checkArmstrong(num);
+        Arm.checkArmstrong(num);
     }
-
 }

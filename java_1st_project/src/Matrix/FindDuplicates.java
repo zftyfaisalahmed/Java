@@ -2,8 +2,7 @@ package Matrix;
 
 import java.util.Arrays;
 
-public class FindDuplicates {
-
+class FindRecur {
     public static void findDuplicates(int[] arr) {
         Arrays.sort(arr);
 
@@ -13,7 +12,7 @@ public class FindDuplicates {
 
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i] == arr[i + 1]) {
-                System.out.println("Element: " + arr[i]);
+                System.out.println("Element : " + arr[i]);
                 duplicateFound = true;
                 while (i < arr.length - 1 && arr[i] == arr[i + 1]) {
                     i++;
@@ -26,8 +25,12 @@ public class FindDuplicates {
         }
     }
 
+}
+
+public class FindDuplicates {
     public static void main(String[] args) {
+        FindRecur fr = new FindRecur();
         int[] arr = { 1, 2, 3, 4, 2, 1, 2, 4 };
-        findDuplicates(arr);
+        fr.findDuplicates(arr);
     }
 }

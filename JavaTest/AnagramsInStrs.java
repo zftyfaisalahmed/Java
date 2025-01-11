@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 class AnnaGrams {
-
     boolean isAnagram(String str1, String str2) {
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
@@ -16,7 +15,7 @@ class AnnaGrams {
         return Arrays.equals(arr1, arr2);
     }
 
-    List<List<String>> groupAnagrams(String[] strs) {
+    ArrayList<List<String>> groupAnagrams(String[] strs) {
         ArrayList<List<String>> result = new ArrayList<>();
         boolean[] visited = new boolean[strs.length];
 
@@ -41,10 +40,10 @@ class AnnaGrams {
 
 public class AnagramsInStrs {
     public static void main(String[] args) {
-        String[] strs = { "cat", "tea", "tan", "ate", "nat", "bat" };
+        String[] strs = { "cat", "tea", "tan", "ate", "nat", "bat", "map", "pam" };
 
         AnnaGrams an = new AnnaGrams();
-        List<List<String>> groupedAnagrams = an.groupAnagrams(strs);
+        ArrayList<List<String>> groupedAnagrams = an.groupAnagrams(strs);
 
         for (List<String> group : groupedAnagrams) {
             System.out.println(group);

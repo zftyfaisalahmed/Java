@@ -9,7 +9,7 @@ public class MyName {
         System.out.println("Enter the size ");
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
-
+            // F
             for (int j = 0; j < n; j++) {
                 if (i == 0 && j != 0 || j == 0 && i != 0 || i == (n / 2)) {
                     System.out.print("# ");

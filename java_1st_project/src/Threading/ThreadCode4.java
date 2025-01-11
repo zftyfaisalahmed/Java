@@ -1,6 +1,6 @@
 package Threading;
 
-class Human extends Thread {
+class HumanBeing extends Thread {
 
     @Override
     public void run() {
@@ -20,11 +20,11 @@ class Human extends Thread {
 public class ThreadCode4 {
     public static void main(String[] args) {
 
-        Human h1 = new Human();
+        HumanBeing h1 = new HumanBeing();
         h1.setName("Boy");
-        Human h2 = new Human();
+        HumanBeing h2 = new HumanBeing();
         h2.setName("Girls");
-        Human h3 = new Human();
+        HumanBeing h3 = new HumanBeing();
         h3.setName("others");
 
         h1.start();

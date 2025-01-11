@@ -10,7 +10,6 @@ class Farmer {
 
     static {
         rate = 2.678;
-
     }
 
     void collectData() {
@@ -34,21 +33,13 @@ class Farmer {
 }
 
 public class StaticExample {
-
     public static void main(String[] args) {
 
         Farmer farmer1 = new Farmer();
-        Farmer farmer2 = new Farmer();
 
         farmer1.collectData();
         farmer1.calculate();
         farmer1.display();
         System.out.println("---------------");
-
-        farmer2.collectData();
-        farmer2.calculate();
-        farmer2.display();
-        System.out.println("---------------");
     }
-
 }

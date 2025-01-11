@@ -45,6 +45,7 @@ class Operation2 {
 }
 
 class Operation3 {
+    // Encapsulates the risky operations where exceptions might occur.
     void Funtion3() {
         try {
             System.out.println("Inside Fun-3");
@@ -66,7 +67,12 @@ class Operation4 {
     }
 }
 
+// Exception handling in a multi-layered function
 public class FunctionHandling {
+    // The code uses a generic exception (Exception) in try-catch to handle all
+    // possible exceptions that might occur in nested function calls (Funtion1 ->
+    // Funtion2 -> Funtion3). While this approach avoids crashes, handling
+    // exceptions at a lower level or catching specific exceptions
     public static void main(String[] args) {
         System.out.println("Inside Main Fun");
         Operation4 op4 = new Operation4();

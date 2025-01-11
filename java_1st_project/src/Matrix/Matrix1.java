@@ -40,6 +40,5 @@ public class Matrix1 {
             }
             System.out.println();
         }
-
     }
 }

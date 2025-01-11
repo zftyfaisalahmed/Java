@@ -32,7 +32,6 @@ class Ops3 {
             Ops2 op2 = new Ops2();
             op2.funtion2();
         } catch (Exception e) {
-            // TODO: handle exception
             System.out.println("Exception handled in fun-3");
             throw e;
         }
@@ -45,7 +44,6 @@ public class ThrowException {
             Ops3 op3 = new Ops3();
             op3.function3();
         } catch (Exception e) {
-            // TODO: handle exception
             e.printStackTrace();
         }
     }

@@ -1,4 +1,4 @@
-package ToStringMethod;
+package Collection.ToStringMethod;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

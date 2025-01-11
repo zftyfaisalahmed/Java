@@ -1,6 +1,6 @@
 package InheritedSpeicalOverride;
 
-class Plane {
+class AeroPlane {
     void takeOff() {
         System.out.println("Plane took Off");
     }
@@ -14,7 +14,7 @@ class Plane {
     }
 }
 
-class cargoPlane extends Plane {
+class cargoPlane extends AeroPlane {
     void fly() {
         System.out.println("Cargo Plane fly at low heights");
     }
@@ -24,7 +24,7 @@ class cargoPlane extends Plane {
     }
 }
 
-class passengerPlane extends Plane {
+class passengerPlane extends AeroPlane {
     @Override
     void fly() {
         System.out.println("Passenger Plane fly at low heights");
@@ -35,7 +35,7 @@ class passengerPlane extends Plane {
     }
 }
 
-class fighterPlane extends Plane {
+class fighterPlane extends AeroPlane {
     @Override
     void fly() {
         System.out.println("Fighter Plane fly at high heights");
@@ -47,7 +47,7 @@ class fighterPlane extends Plane {
 }
 
 class Airport {
-    void permit(Plane ref) {
+    void permit(AeroPlane ref) {
         ref.takeOff();
         ref.fly();
         ref.land();
