@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GrabageCollection1",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.GrabageCollection1",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "GrabageCollection",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.GrabageCollection",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LoveLab",
+            "request": "launch",
+            "mainClass": "FriendsCode.LoveLab",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ExtendedLoveStory",
+            "request": "launch",
+            "mainClass": "FriendsCode.ExtendedLoveStory",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LoveStory",
+            "request": "launch",
+            "mainClass": "FriendsCode.LoveStory",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "SurpriseCelebration",
+            "request": "launch",
+            "mainClass": "FriendsCode.SurpriseCelebration",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LoveLocker",
+            "request": "launch",
+            "mainClass": "FriendsCode.LoveLocker",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "CoffeeDateAuth",
+            "request": "launch",
+            "mainClass": "FriendsCode.CoffeeDateAuth",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "tr",
+            "request": "launch",
+            "mainClass": "FriendsCode.tr",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FaiziiArtGallery",
+            "request": "launch",
+            "mainClass": "FriendsCode.FaiziiArtGallery",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "MoonlightSerenadeInvite",
+            "request": "launch",
+            "mainClass": "FriendsCode.MoonlightSerenadeInvite",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "GatsbyDateInvite",
+            "request": "launch",
+            "mainClass": "FriendsCode.GatsbyDateInvite",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "OurLoveStory",
+            "request": "launch",
+            "mainClass": "FriendsCode.OurLoveStory",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LoveCodeForFaizii",
+            "request": "launch",
+            "mainClass": "FriendsCode.LoveCodeForFaizii",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "CheesyForFaizii",
+            "request": "launch",
+            "mainClass": "FriendsCode.CheesyForFaizii",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FlowerBouquet",
+            "request": "launch",
+            "mainClass": "FriendsCode.FlowerBouquet",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ForeverWithFaizii",
+            "request": "launch",
+            "mainClass": "FriendsCode.ForeverWithFaizii",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "WillYouBeMine",
+            "request": "launch",
+            "mainClass": "FriendsCode.WillYouBeMine",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "hjwjc",
             "request": "launch",
             "mainClass": "Collection.Collections.hjwjc",

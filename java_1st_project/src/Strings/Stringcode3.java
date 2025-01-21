@@ -2,8 +2,8 @@ package Strings;
 
 public class Stringcode3 {
     public static void main(String[] args) {
-        String str1 = new String("RAMA");
-        String str2 = new String("rama");
+        String str1 = new String("Nisha");
+        String str2 = new String("Faisal");
 
         if (str1.equalsIgnoreCase(str2) == true) {
             System.out.println("String are equal");
