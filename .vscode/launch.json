@@ -6,6 +6,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ServerCode",
+            "request": "launch",
+            "mainClass": "Collection.SocketProg.MultiWaySocket.ServerCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ClientCode",
+            "request": "launch",
+            "mainClass": "Collection.SocketProg.MultiWaySocket.ClientCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ClientCode",
+            "request": "launch",
+            "mainClass": "Collection.SocketProg.TwoWaySocket.ClientCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ServerCode",
+            "request": "launch",
+            "mainClass": "Collection.SocketProg.TwoWaySocket.ServerCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ClientCode",
+            "request": "launch",
+            "mainClass": "Collection.SocketProg.OneWaySocket.ClientCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ServerCode",
+            "request": "launch",
+            "mainClass": "Collection.SocketProg.OneWaySocket.ServerCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "EternalLoveStory",
+            "request": "launch",
+            "mainClass": "FriendsCode.EternalLoveStory",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "PuzzleSolver",
+            "request": "launch",
+            "mainClass": "FriendsCode.PuzzleSolver",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FileHandlingCode",
+            "request": "launch",
+            "mainClass": "Collection.FileMethods.FileHandlingCode",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FileMethodsExample",
+            "request": "launch",
+            "mainClass": "Collection.FileMethods.FileMethodsExample",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "UsingTransientDeSerializableProg",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.Serialization.UsingTransientDeSerializableProg",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "UsingTransientSerializableProg",
+            "request": "launch",
+            "mainClass": "Collection.ToStringMethod.Serialization.UsingTransientSerializableProg",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "LoveDiarium",
+            "request": "launch",
+            "mainClass": "FriendsCode.LoveDiarium",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Patterns.Pattern",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Learning",
+            "request": "launch",
+            "mainClass": "PracticeMyself.Learning",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Patern121",
+            "request": "launch",
+            "mainClass": "Patterns.Patern121",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "GrabageCollection1",
             "request": "launch",
             "mainClass": "Collection.ToStringMethod.GrabageCollection1",

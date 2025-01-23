@@ -32,7 +32,7 @@ public class SurpriseCelebration {
           secretMessageHunt(input);
           break;
         case 5:
-          System.out.println("Thanks for celebrating with me, Machii!");
+          System.out.println("Thanks for celebrating with me, Astha!");
           return;
         default:
           System.out.println("Invalid choice. Please try again!");

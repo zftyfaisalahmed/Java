@@ -10,7 +10,8 @@ class PatternOp {
                 + "3. pattern3\n" + "4. pattern4\n" + "5. pattern5\n" + "6. pattern6\n" + "7. pattern7\n"
                 + "8. pattern8\n" + "9. pattern9\n" + "10. pattern10\n" + "11. pattern11\n" + "12. pattern12\n"
                 + "13. pattern13\n" + "14. pattern14\n" + "15. pattern15\n" + "16. pattern16\n" + "17. pattern17\n"
-                + "18. pattern18\n" + "19. pattern19\n" + "20. pattern20\n" + "21. pattern21\n" + "22. pattern22\n");
+                + "18. pattern18\n" + "19. pattern19\n" + "20. pattern20\n" + "21. pattern21\n" + "22. pattern22\n"
+                + "23. pattern23\n");
         int choose = sc.nextInt();
 
         switch (choose) {
@@ -726,21 +727,23 @@ class PatternOp {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (i == 1 || i == n || j == 1) {
-                    System.out.print("# ");
-                } else {
-                    System.out.print("- ");
-                }
-                // System.out.print("# ");
+            for (int j = i; j < n; j++) {
+                System.out.print("  ");
             }
             for (int j = 1; j <= i; j++) {
-                if (i == n || j == i) {
-                    System.out.print("# ");
+                if (i == 2 || i == 0 || i == 3 || i == 1) {
+                    System.out.print("  ");
                 } else {
-                    System.out.print("- ");
+                    System.out.print("# ");
                 }
-                // System.err.print("# ");
+
+            }
+            for (int j = 1; j < i; j++) {
+                if (i == 2 || i == 0 || i == 3 || i == 1) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("# ");
+                }
             }
             System.out.println();
         }
