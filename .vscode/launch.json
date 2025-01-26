@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "fetchingdata.App",
+            "projectName": "fetchingdatasql"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "connectiondatabase.App",
+            "projectName": "connecttosql"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "mavenemployee.App",
+            "projectName": "jdbcemp"
+        },
+        {
+            "type": "java",
+            "name": "JdbcMain",
+            "request": "launch",
+            "mainClass": "JDBCsql.JdbcMain",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "maven_sql"
+        },
+        {
+            "type": "java",
             "name": "ServerCode",
             "request": "launch",
             "mainClass": "Collection.SocketProg.MultiWaySocket.ServerCode",

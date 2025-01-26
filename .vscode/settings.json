@@ -1,3 +1,10 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.sourcePaths": [
+        "java_1st_project\\src"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\user\\Downloads\\mysql-connector-java-8.0.11.jar"
+    ]
 }

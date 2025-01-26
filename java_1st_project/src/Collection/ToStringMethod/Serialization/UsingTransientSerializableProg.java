@@ -5,14 +5,14 @@ import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-class Players implements Serializable {
+class Players1 implements Serializable {
     String name;
     String country;
     transient int matched;
     transient int catches;
     int runs;
 
-    public Players(String name, String country, int matched, int catches, int runs) {
+    public Players1(String name, String country, int matched, int catches, int runs) {
         super();
         this.name = name;
         this.country = country;
@@ -30,7 +30,7 @@ class Players implements Serializable {
 
 public class UsingTransientSerializableProg {
     public static void main(String[] args) throws Exception {
-        Players c1 = new Players("Rohith", "India", 200, 180, 13000);
+        Players1 c1 = new Players1("Rohith", "India", 200, 180, 13000);
         System.out.println(c1.toString());
 
         String path = "C:\\FREQUENCY TECHNOLOGY\\JavaFiles\\Players.txt";

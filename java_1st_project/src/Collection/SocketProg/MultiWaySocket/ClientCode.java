@@ -11,6 +11,8 @@ public class ClientCode {
     public static void main(String[] args) throws Exception {
         String localhost = "192.168.97.120"; // Replace with your server's IP address
         Socket csoc = new Socket(localhost, 4000);
+        // Socket socket = new Socket();
+        // socket.connect(new InetSocketAddress("127.0.0.1", 4000), 5000);
 
         OutputStream os = csoc.getOutputStream();
         DataOutputStream dos = new DataOutputStream(os);

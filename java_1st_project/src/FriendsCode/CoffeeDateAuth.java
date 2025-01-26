@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class CoffeeDateAuth {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Coffee Date Invitation for Faizii!");
+        System.out.println("Coffee Date Invitation for Astha!");
 
         // Auth Questions with YES/NO password responses
         String[] questions = { "Will you go on a coffee date with me?", "Is tonight perfect for our date?" };
-        String[] yesPasswords = { "LOVEYOU", "TONIGHTYES", "YES" };
-        String[] noPasswords = { "NOTINTERESTED", "ANOTHERNIGHT", "NO" };
+        String[] yesPasswords = { "YES", "YES", "YES" };
+        String[] noPasswords = { "NOD", "NO", "NO" };
 
         for (int i = 0; i < questions.length; i++) {
             System.out.println(questions[i]);
@@ -26,6 +26,6 @@ public class CoffeeDateAuth {
                 i--; // Retry current question
             }
         }
-        System.out.println("Coffee date confirmed for tonight! I'll pick you up at 6 PM!");
+        System.out.println("Coffee date confirmed for tomorrow! I'll pick you up at 6 PM!");
     }
 }
