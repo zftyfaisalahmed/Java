@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MetaDataProg",
+            "request": "launch",
+            "mainClass": "jdbcexecute.MetaDataProg",
+            "projectName": "executemethod"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "jdbcexecute.App",
+            "projectName": "executemethod"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "fetchingdata.App",
