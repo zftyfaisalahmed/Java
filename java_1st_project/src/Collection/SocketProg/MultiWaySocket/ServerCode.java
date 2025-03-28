@@ -24,7 +24,7 @@ public class ServerCode {
 
         Scanner sc = new Scanner(System.in);
 
-        // Limit the conversation to 3 exchanges
+        // Limit the conversation to 5 exchanges
         int iterations = 5;
         for (int i = 1; i <= iterations; i++) {
             // Server receives a message from the client

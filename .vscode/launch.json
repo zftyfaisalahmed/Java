@@ -6,6 +6,202 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidParenthesesWithoutStack",
+            "request": "launch",
+            "mainClass": "Problems.ValidParenthesesWithoutStack",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ParenthesesValid",
+            "request": "launch",
+            "mainClass": "Problems.ParenthesesValid",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "WordCount",
+            "request": "launch",
+            "mainClass": "Problems.WordCount",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "Problems.Sorting",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArmStrongNum",
+            "request": "launch",
+            "mainClass": "Problems.ArmStrongNum",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "FindFactor",
+            "request": "launch",
+            "mainClass": "Problems.FindFactor",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StrongorFact",
+            "request": "launch",
+            "mainClass": "Problems.StrongorFact",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AutomorphicNum",
+            "request": "launch",
+            "mainClass": "Problems.AutomorphicNum",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "BinarytoDec",
+            "request": "launch",
+            "mainClass": "Problems.BinarytoDec",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "OctaltoDec",
+            "request": "launch",
+            "mainClass": "Problems.OctaltoDec",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "CalculateAge",
+            "request": "launch",
+            "mainClass": "Problems.CalculateAge",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ConvertHourstosec",
+            "request": "launch",
+            "mainClass": "Problems.ConvertHourstosec",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "Problems.Armstrong",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "UpperCase",
+            "request": "launch",
+            "mainClass": "Problems.UpperCase",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "AnagramForm",
+            "request": "launch",
+            "mainClass": "Problems.AnagramForm",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "PasswordValid",
+            "request": "launch",
+            "mainClass": "Problems.PasswordValid",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWord",
+            "request": "launch",
+            "mainClass": "Problems.ReverseWord",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReverseByword",
+            "request": "launch",
+            "mainClass": "Problems.ReverseByword",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "OddOcc",
+            "request": "launch",
+            "mainClass": "Problems.OddOcc",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReplaceVowels",
+            "request": "launch",
+            "mainClass": "Problems.ReplaceVowels",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "UnnessarySpace",
+            "request": "launch",
+            "mainClass": "Problems.UnnessarySpace",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "RomanChar",
+            "request": "launch",
+            "mainClass": "Problems.RomanChar",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "OopsConceptAsked",
+            "request": "launch",
+            "mainClass": "Basics.OopsConceptAsked",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "OopsConcept",
+            "request": "launch",
+            "mainClass": "Basics.OopsConcept",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ThisKeyword",
+            "request": "launch",
+            "mainClass": "Basics.ThisKeyword",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ArrayJagged",
+            "request": "launch",
+            "mainClass": "ArrayCode.ArrayJagged",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "StringObject",
+            "request": "launch",
+            "mainClass": "Strings.StringObject",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ShoppingApp",
+            "request": "launch",
+            "mainClass": "ECommerce.ShoppingApp",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "MetaDataProg",
             "request": "launch",
             "mainClass": "jdbcexecute.MetaDataProg",

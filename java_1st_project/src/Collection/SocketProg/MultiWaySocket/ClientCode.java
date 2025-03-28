@@ -23,7 +23,7 @@ public class ClientCode {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Connected to the server.");
-        int iterations = 5; // Limit the conversation to 3 exchanges
+        int iterations = 5; // Limit the conversation to 5 exchanges
 
         for (int i = 1; i <= iterations; i++) {
             // Client sends a message
