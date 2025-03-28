@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PalindromeString",
+            "request": "launch",
+            "mainClass": "Problems.PalindromeString",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "MostlyUsedChar",
+            "request": "launch",
+            "mainClass": "Problems.MostlyUsedChar",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
+            "name": "ReversedByWord",
+            "request": "launch",
+            "mainClass": "Problems.ReversedByWord",
+            "projectName": "Java_cac71ac9"
+        },
+        {
+            "type": "java",
             "name": "ValidParenthesesWithoutStack",
             "request": "launch",
             "mainClass": "Problems.ValidParenthesesWithoutStack",
